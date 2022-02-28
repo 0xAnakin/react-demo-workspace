@@ -216,8 +216,23 @@ requirement and rerun the task.
 
 ## Notes
 
+> Download & install blade, create a new workspace using blade (see below). Also create a `gradle-local.properties` file and set the property `liferay.workspace.home.dir` to your new liferay home directory. For more info regarding react see the readme inside modules directory.
+
 ### Blade
+
+- [blade linux](https://learn.liferay.com/dxp/latest/en/building-applications/tooling/blade-cli/installing-and-updating-blade-cli.html)
+- [blade windows](https://lifedev-solutions.blogspot.com/2020/01/installing-blade-cli-from-command-line.html)
 
 - `blade update` -> update blade
 - `blade init -l` -> list available versions
 - `blade init -v [Liferay version] [workspace name]` -> create new workspace and pass version and a name as parameters
+
+### Database creation
+
+`
+create database dxp74dev character set utf8 collate utf8_general_ci;
+create user 'dxp74dev'@'localhost' identified BY 'test';
+grant all on dxp74dev.* to 'dxp74dev'@'localhost';
+flush privilages;
+`
+
