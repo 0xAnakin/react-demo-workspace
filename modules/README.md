@@ -15,8 +15,8 @@ This is a liferay react widget generated with `yo liferay-js` which includes ext
 
 ## Environment
 
-- Liferay 7.4 update 6
-- Nodejs v16.14.0 LTS
+- Liferay 7.4 update 9
+- Nodejs v16.14.0 LTS (in case you have multiple nodejs versions, consider using nvm)
 
 ### Globally Installed Packages
 
