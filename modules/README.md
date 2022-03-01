@@ -9,6 +9,8 @@ Contains 2 liferay react demo projects
 
 This is a deault react app generated with `npx create-react-app my-react-app` and then adapted using `yo liferay-js:adapt`. The original react app version is included in a zip file insdie the directory.
 
+- [Adapting](https://help.liferay.com/hc/en-us/articles/360035467712-Adapting-Existing-Apps-to-Run-on-Liferay-DXP)
+
 ### My React Widget
 
 This is a liferay react widget generated with `yo liferay-js` which includes extra out of the box features such as (localization & configuration<sup>*1</sup>).
